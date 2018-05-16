@@ -1,0 +1,23 @@
+{
+  "name": "justPractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrmorikawa/justPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrmorikawa/justPractice/issues"
+  },
+  "homepage": "https://github.com/rrmorikawa/justPractice#readme",
+  "devDependencies": {
+    "webpack": "^4.8.3"
+  }
+}
