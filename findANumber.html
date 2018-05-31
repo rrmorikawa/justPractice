@@ -1,0 +1,32 @@
+<html>
+<style>
+    body {
+        background-color: gray;
+    }
+</style>
+
+<body onload="getArray(); sortArray(random);">
+
+    <p>Click to find the index of number 25</p>
+    <label id="scoreArray"></label>
+    </p>
+    <br>
+    <p>Found your number:</p>
+    <label id="foundNumber"></label>
+    <br>
+    <input type="submit" value="Find number 25's index" onclick="findIndex(scores)">
+    <br>
+    <br>
+    <label id="sortedArray"></label>
+    <div>Enter a number from the array above to find its index
+        <input id="myNumber" type="text">
+    </div>
+    <br>
+    <input type="submit" value="Find my number's index" onclick="binarySearch(searchNumber)">
+    <p id="newString"></p>
+    <button onclick="document.location='./index.html'">Take me back to dakine</button>
+</body>
+
+<script src="./src/algPractice.js"></script>
+
+</html>
